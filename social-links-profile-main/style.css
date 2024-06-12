@@ -1,0 +1,15 @@
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+  --Green: hsl(75, 94%, 57%);
+
+--White: hsl(0, 0%, 100%);
+--Grey: hsl(0, 0%, 20%);
+--DarkGrey: hsla(0, 0%, 12%, 1);
+--OffBlack: hsl(0, 0%, 8%);
+}
+body{
+  background-color: var(--White);
+}
